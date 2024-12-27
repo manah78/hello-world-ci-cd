@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha",
+    "build": "echo 'Building Hello World project'"
   },
   "repository": {
     "type": "git",
@@ -19,5 +20,9 @@
   "description": "",
   "devDependencies": {
     "mocha": "^11.0.1"
+  },
+  "dependencies": {
+    "express": "^4.21.2",
+    "sqlite3": "^5.1.7"
   }
 }
